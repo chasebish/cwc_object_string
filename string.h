@@ -17,7 +17,7 @@ public:
   String(const char* s);
 
   /* Copies a String copying the value from s */
-  String(String* s);
+  String(String* const s);
 
   /* Clears String from memory */
   ~String();
@@ -29,7 +29,7 @@ public:
   size_t hash();
 
   /* Inherited from Object, checks equality between an String and an Object */
-  bool equals(Object* obj);
+  bool equals(Object* const obj);
 
 
   /** STRING METHODS **/
@@ -39,10 +39,10 @@ public:
    * = 0 -> this String is equal to String s
    * > 0 -> this String is greater than String s
    */
-  int cmp(String* s);
+  int cmp(String* const s);
 
   /* Creates a new String by combining two existing Strings */
-  String* concat(String* s);
+  String* concat(String* const s);
 
   /* Returns the current length of the String */
   size_t size();
