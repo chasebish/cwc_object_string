@@ -30,7 +30,7 @@ If you would like to contribute/make changes, all is welcome
 
 `bool equals(Object* obj)` - Equality checker between a String and an Object
 
-`int cmp(String* s)` - Compares two Strings, should return one of -1, 0, 1 based on alphabetical order
+`int cmp(String* s)` - Compares two Strings, < 0 if this String is less than String s, = 0 if this String is equal to String s, > 0 if this String is greater than String s
 
 `String* concat(String* s)` - Concatenates two Strings, creates a new String
 
