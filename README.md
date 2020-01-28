@@ -1,5 +1,5 @@
 # Standard Object and String implementations
-This repository is for [CS4500 Software Development](http://janvitek.org/events/NEU/4500/s20/index.html) and provides standard implementations for the class for both Object and String. It would be mutually beneficial to the class as a whole if we all adopted the same base APIs to be implemented.
+This repository is for [CS4500 Software Development](http://janvitek.org/events/NEU/4500/s20/index.html) and provides standard implementations for the class for both Object and String. It would be mutually beneficial if the entire class adopted the same base APIs.
 
 If you would like to contribute/make changes, all is welcome
 
