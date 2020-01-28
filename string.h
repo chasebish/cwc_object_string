@@ -14,9 +14,6 @@ public:
   /** CONSTRUCTORS & DESTRUCTORS **/
 
   /* Creates a String copying s */
-  String(char* s);
-
-  /* Creates a String copying s */
   String(const char* s);
 
   /* Copies a String copying the value from s */
