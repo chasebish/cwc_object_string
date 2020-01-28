@@ -29,7 +29,7 @@ public:
   size_t hash();
 
   /* Inherited from Object, checks equality between an String and an Object */
-  bool equals(Object* obj);
+  bool equals(Object* const obj);
 
 
   /** STRING METHODS **/
