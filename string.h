@@ -37,7 +37,11 @@ public:
 
   /** STRING METHODS **/
   
-  /* Compares strings based on alphabetical order */
+  /** Compares strings based on alphabetical order
+   * < 0 -> this String is less than String s
+   * = 0 -> this String is equal to String s
+   * > 0 -> this String is greater than String s
+   */
   int cmp(String* s);
 
   /* Creates a new String by combining two existing Strings */
