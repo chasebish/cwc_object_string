@@ -52,15 +52,15 @@ public:
    * @arg s  the String to compare this against
    * @return an int resulting from applying the above rules
    */
-  int cmp(const String *s) const;
+  int compare(const String *s) const;
 
   /**
-   * Concatenates the given String onto this String.
+   * Appends the given String onto this String.
    *
-   * @arg s  the source String to be concatenated onto this String
+   * @arg s  the source String to be appended onto this String
    * @effect mutates this
    */
-  void concat(const String *s);
+  void append(const String *s);
 
   /**
    * Concatenates the given String onto this String, storing the result in
