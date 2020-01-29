@@ -13,6 +13,13 @@
 class String : public Object {
 public:
   /**
+   * Creates an empty string of the requested size.
+   *
+   * @arg s string literal to be used as a source for this String object
+   */
+  String(int size);
+
+  /**
    * Creates a String by copying a string literal.
    *
    * @arg s string literal to be used as a source for this String object
