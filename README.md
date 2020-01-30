@@ -13,28 +13,26 @@ If you would like to contribute/make changes, all is welcome
 
 `virtual ~Object()` - Basic virtual destructor for an Object, to be overridden by subclasses
 
-`virtual bool equals(Object* obj)` - Equality checker between Objects
+`virtual bool equals(Object* const obj)` - Equality checker between Objects
 
 `virtual size_t hash()` - Generates a hash for an Object
 
 ### String
-`String(char* s)` - Basic constructor for a String
-
 `String(const char* s)` - Basic constructor for a String
 
-`String(String* s)` - Creates a new String copying the value from s
+`String(String* const s)` - Creates a new String copying the value from s
 
 `~String()` - Destructor for a String
 
 `size_t hash()` - Generates a hash for a String
 
-`bool equals(Object* obj)` - Equality checker between a String and an Object
+`bool equals(Object* const obj)` - Equality checker between a String and an Object
 
-`int cmp(String* s)` - Compares two Strings in alphabetical order
+`int cmp(String* const s)` - Compares two Strings in alphabetical order
 - `< 0 if this String is less than String s`
 - `= 0 if this String is equal to String s`
 - `> 0 if this String is greater than String s`
 
-`String* concat(String* s)` - Concatenates two Strings, creates a new String
+`String* concat(String* const s)` - Concatenates two Strings, creates a new String
 
 `size_t size()` - Gets the size of the String value
