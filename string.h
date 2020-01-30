@@ -1,4 +1,4 @@
-// lang::CwC
+//lang::CwC
 #pragma once
 
 #include <cstdio>
@@ -11,7 +11,7 @@
  * An immutable String class representing a char*
  * author: chasebish */
 class String : public Object {
- public:
+public:
   /** CONSTRUCTORS & DESTRUCTORS **/
 
   /* Creates a String copying s */

@@ -1,4 +1,4 @@
-// lang::CwC
+//lang::CwC
 #pragma once
 
 #include <cstdlib>
@@ -7,7 +7,7 @@
  * A class that represents the top of the object hierarchy.
  * author: chasebish */
 class Object {
- public:
+public:
   /** CONSTRUCTORS & DESTRUCTORS **/
 
   /* Default Object constructor */
